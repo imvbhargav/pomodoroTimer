@@ -4,3 +4,6 @@
 
 ## Tech Stack
 1. React
+
+<hr>
+<a href="https://pomodoro-timer-by-imvbhargav.vercel.app/">Deployed on Vercel</a>
