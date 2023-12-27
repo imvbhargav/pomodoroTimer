@@ -37,7 +37,7 @@ function App() {
     else if (breakTime < 1){
       setBreakTime(1);
     }
-    if (breakTime === 'break'){
+    if (currentTimer === 'break'){
       setCounts(breakTime * 60);
     }
   }, [breakTime, currentTimer]);
