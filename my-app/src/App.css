@@ -1,0 +1,98 @@
+.bg-blue{
+  background-color: #0096FF;
+}
+
+.bg-orange{
+  background-color: #FF5733;
+}
+
+.bg-bx-blue{
+  background: #0096FF;
+  box-shadow:  5px 5px 15px #0081db,
+             -5px -5px 15px #00abff;
+}
+
+.bg-bx-orange{
+  background: #FF5733;
+  box-shadow:  5px 5px 15px #d94a2b,
+             -5px -5px 15px #ff643b;
+}
+
+.center-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.center-flex-column{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.break{
+  border-radius: 10px;
+}
+
+.session{
+  border-radius: 10px;
+}
+
+.timer{
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+}
+
+label:not(.value):not(.timer-value){
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.main-button{
+  font-size: 16px;
+  width: 50px;
+  height: 50px;
+  padding-right: 40px;
+}
+
+button{
+  border: none;
+  background: transparent;
+  font-size: 25px;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.value{
+  font-size: 25px;
+  padding: 25px;
+  font-weight: bolder;
+  width: 40px;
+  height: 40px;
+}
+
+.timer-value{
+  font-size: 25px;
+  padding: 25px;
+  font-weight: bolder;
+}
+
+@media only screen and (max-width: 600px){
+  .mbl-flex{
+    flex-direction: column-reverse;
+  }
+  .mbl-flex-main{
+    flex-direction: column-reverse;
+  }
+  .center-flex-column .center-flex{
+    padding: 0;
+    padding-top: 10px; 
+  }
+}
