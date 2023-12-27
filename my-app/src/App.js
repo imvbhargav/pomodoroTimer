@@ -149,7 +149,7 @@ function App() {
     <div>
       <h1 className="text-center">Pomodoro Timer</h1>
       <p className="text-center">-: by Bhargav Jois :-</p>
-      <div className="center-flex-column mbl-flex-main">
+      <div className="center-flex-column mbl-flex-main" id="pt-0">
 
         {/* Break length panel */}
         <div className="center-flex mbl-flex">

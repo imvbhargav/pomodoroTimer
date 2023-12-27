@@ -29,6 +29,10 @@
 	font-family: 'Hina Mincho', sans-serif;
 }
 
+#pt-0{
+  padding-top: 0;
+}
+
 .center-flex-column{
   display: flex;
   justify-content: center;
