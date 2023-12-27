@@ -26,6 +26,7 @@
 
 .text-center{
   text-align: center;
+	font-family: 'Hina Mincho', sans-serif;
 }
 
 .center-flex-column{
@@ -94,5 +95,8 @@ button{
   .center-flex-column .center-flex{
     padding: 0;
     padding-top: 10px; 
+  }
+  .break, .session{
+    padding-bottom: 0;
   }
 }
